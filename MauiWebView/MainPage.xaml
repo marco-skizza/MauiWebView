@@ -9,22 +9,22 @@
                 <HtmlWebViewSource>
                     <HtmlWebViewSource.Html>
                         <![CDATA[
-                         <html>
-                           <head>
-                             <style>
-                                  html {
-                                    font-size: 36px;
-                                  }
-                                  
-                                  body {
-                                    margin: 0px;
-                                  }
-                             </style>
-                           </head>
-                           <body>
-                                <p>Html Text (font-size: 36px)</p>
-                           </body>
-                         </html>
+                        <html>
+                          <head>
+                            <meta name="viewport" content="width=device-width, initial-scale=1" />
+                            <style>
+                              html {
+                                font-size: 36px;
+                              }
+                              body {
+                                margin: 0px;
+                              }
+                            </style>
+                          </head>
+                          <body>
+                            <p>Html Text (font-size: 36px)</p>
+                          </body>
+                        </html>
                         ]]>
                     </HtmlWebViewSource.Html>
                 </HtmlWebViewSource>
